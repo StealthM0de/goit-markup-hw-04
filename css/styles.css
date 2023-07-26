@@ -176,6 +176,15 @@ img {
 /*checked*/
 .bg-hero {
   background-color: var(--navyblue);
+
+  max-width: 1600px;
+  margin: 0, auto;
+
+  background-image: url(../images/bg-hero.jpg),
+    linear-gradient(#2e2f42, #2e2f42, #2e2f42, #2e2f42);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*checked*/
