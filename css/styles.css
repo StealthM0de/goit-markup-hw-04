@@ -9,6 +9,7 @@
   --slatecolor: #434455;
   --cloudcolor: #f4f4fd;
   --cornflower: #e7e9fc;
+  --green: #31d0aa;
 }
 
 /*css reset*/
@@ -375,8 +376,8 @@ img {
 }
 
 .team-social-item {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
 }
 
 .team-social-link {
@@ -395,6 +396,11 @@ img {
 
 .team-social-icon {
   fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--green);
 }
 
 /*checked*/
