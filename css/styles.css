@@ -509,9 +509,16 @@ img {
   font-family: inherit;
 }
 
-.container-footer {
+.container-logo-description {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-text-icon {
