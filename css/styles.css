@@ -176,16 +176,20 @@ img {
 
 /*checked*/
 .bg-hero {
-  /* background-color: var(--navyblue); */
+  background-color: var(--navyblue);
 
-  max-width: 1600px;
-  margin: 0, auto;
-
-  background-image: url(../images/bg-hero.jpg),
-    linear-gradient(#2e2f42 65%, #2e2f42 45%, #2e2f42 35%, #2e2f42);
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  max-width: 1600px;
+  margin: 0, auto;
 }
 
 /*checked*/
@@ -297,6 +301,22 @@ img {
   flex-basis: calc(100% / 4 - 30px);
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.benefits-social-link {
+  width: 264px;
+  height: 112px;
+
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cloudcolor);
+}
+
+.benefits-icon {
+  fill: currentColor;
 }
 
 /*checked*/
@@ -486,4 +506,54 @@ img {
   font-size: 16px;
   font-weight: 400;
   padding-top: 17.5px;
+  font-family: inherit;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-text-icon {
+  color: var(--cloudcolor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 8px;
+}
+
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--whitecolor);
+  background-color: var(--iriscolor);
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--green);
 }
