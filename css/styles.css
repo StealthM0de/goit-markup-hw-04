@@ -188,8 +188,8 @@ img {
   background-position: center;
   background-size: cover;
 
-  max-width: 1600px;
-  margin: 0, auto;
+  /* max-width: 1600px;
+  margin: 0, auto; */
 }
 
 /*checked*/
