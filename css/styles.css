@@ -518,7 +518,14 @@ img {
 .container-social-link {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
 }
 
 .footer-text-icon {
